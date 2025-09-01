@@ -9,7 +9,7 @@ import time as t
 API_KEY = os.getenv("PUSHBULLET_API_KEY")
 pb = Pushbullet(API_KEY)
 
-url = "https://mostaql.com/projects/skill/web-development"
+url = "https://mostaql.com/projects?category=development&sort=latest"
 seen_projects = set()
 
 def check_projects():
